@@ -21,6 +21,9 @@ import {
 
 export default function App(){
     const [isMenuActive,setIsMenuActive] = useState(false);
+
+    const [isSearchActive,setIsSearchActive] = useState(false);
+
     let [menu,setmenu]=useState(null);
     console.log(isMenuActive)
     const check=(thatMenu)=>{
@@ -32,6 +35,15 @@ export default function App(){
 
     const check1=()=>{
         setIsMenuActive(false);
+    }
+
+    const newCheck=()=>{
+        console.log("hii");
+        setIsSearchActive(false);
+    }
+
+    const newCheck1=()=>{
+        setIsSearchActive(true);
     }
 
     const clickedFunc=(e)=>{
@@ -51,43 +63,43 @@ export default function App(){
                 } />
                 <Route  path="/profile" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1}  setIsMenuActive={check} />
                     </>
                 } />
                 <Route  path="/resume" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <Resume />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><Resume /></div>
                     </>
                 } />
                 <Route  path="/resume_analyzer" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <ResumeAnalyser />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><ResumeAnalyser /></div>
                     </>
                 } />
                 <Route  path="/student_assessment" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <Studentanalysis />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><Studentanalysis /></div>
                     </>
                 } />
                 <Route  path="feed" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <Landingpage />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><Landingpage /></div>
                     </>
                 } />
                 <Route  path="jobs" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <Jobs />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><Jobs /></div>
                     </>
                 } />
                 <Route  path="notices" element={
                     <>
-                        <Navbar setIsMenuActive={check} />
-                        <Noticesmain />
+                        <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
+                        <div  onClick={newCheck}><Noticesmain /></div>
                     </>
                 } />
             </Routes> 
@@ -96,7 +108,7 @@ export default function App(){
             {/* <Search searchCount={2000} isSearchActive={true} /> */}
             <br />
             </div>
-            <SideMenu check1={check1} isMenuActive={isMenuActive} />
+            <SideMenu onClick={newCheck} check1={check1} isMenuActive={isMenuActive} />
         </div>
     );
 }

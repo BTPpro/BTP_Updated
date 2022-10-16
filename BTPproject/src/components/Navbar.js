@@ -17,6 +17,10 @@ export default function Navbar(props){
         props.click6(search);
     }
 
+    const newCheck3=()=>{
+        props.setSearchTrue();
+    }
+
     return (
         <nav >
             <Link to={"/feed"}>
@@ -28,7 +32,7 @@ export default function Navbar(props){
             <NavLink logoName="jobs" linkName="JOBS"/>
             <NavLink logoName="notices" linkName="NOTICES"/>
             {/* <NavSearch /> */}
-            <Search click4={click5} searchCount={2000} isSearchActive={true} />
+            <Search isSearchActive={props.isSearchActive} setSearchTrue={newCheck3} click4={click5} searchCount={2000} />
             <Link className={NavbarCSS.links} to={"/profile"}>
                 <NavCandidate candidateName="VISHAL KUMAR" candidatepic="mayankvyas" />
             </Link>
