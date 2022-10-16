@@ -1,0 +1,388 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color:
+  #F7F9FB;
+
+}
+.admin{
+margin-top: 15px;
+margin-bottom: 50px;
+margin-left: 12px;
+}
+.admin_button{
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: 
+  #44B7E9;
+  color: white;
+  padding: 10px;
+  font-family: montserrat;
+  border-radius: 4px;
+  border: 0px;
+}
+.admin_button:hover{
+  cursor: pointer;
+    transition: box-shadow .3s;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.login{
+ 
+  width: 424px;
+  height: 500px;
+display: flex;
+align-items: center;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 12px;
+
+border-radius: 20px;
+flex-direction: column;
+border: solid 1px;
+}
+.login_logo{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+}
+
+.input{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 51px;
+  border-radius: 20px;
+  background-color: #EEEEEE;
+  border-width: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family:'Inter';
+  font-size: 15px;
+  color: #8F8F8F;
+  border: 1px solid #C8C8C8;
+}
+.input_mail{
+  margin-top: 12%;
+  font-family:'montserrat';
+}
+.input_password{
+  margin-top: 10%;
+  margin-left:8%
+  ;
+  font-family:'montserrat'
+}
+.signin_button_div{
+  width: 45%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.signin_button{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 55px;
+  border-radius: 20px ;
+  border-width: 0px;
+  background-color: 
+  #44B7E9;
+  color: white;
+  margin-top: 12%;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family:'montserrat';
+}
+.signin_button:hover{
+  cursor: pointer;
+  transition: box-shadow .3s;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.footer{
+  background: rgba(94, 94, 94, 0.43);
+  width: 100%;
+  height: 150px;
+}
+.landing_container{
+  background: #F7F9FB;
+display: flex;
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 20px;
+padding-bottom: 60px;
+}
+.landpage_right{
+  background-color: #F7F9FB;
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+ max-height: 83vh;
+padding-left: 1rem;
+padding-right: 1rem;
+margin-top: 0.5%;
+}
+
+
+.landpage_left{
+  margin-left: 10%;
+  background-color:
+  #F7F9FB;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  max-height: 50vh;
+  flex-direction: end;
+}
+.photo{
+  background-color:white;
+  width: 100%;
+  height: 100%; 
+}
+.resume{
+  padding: 20px;
+  margin-top: 20%;
+  background-color: white;
+  max-width: 100%;
+ 
+  font-family: Montserrat;
+  font-size: 12px;
+
+}
+
+.hr_resume{
+  width: 100%;
+  margin-top: 10px;  
+  font-weight: lighter;
+  justify-content: center;
+  
+ 
+}
+.resume_button{
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 15%;
+  width: 90%;
+  height: 40px;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  
+  border-color: #f4f4f4;
+  border-width: 0.3px;
+  border-bottom-width: 0.2px;
+  font-family: Montserrat;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.resume_button:hover{
+  transition: box-shadow .3s;
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33,33,33,.1);
+  
+}
+
+.profile{
+height: 45%;
+width: 100%;
+
+ 
+}
+.details{
+font-family: Montserrat;
+width: 100%;
+position: relative;
+bottom: 15%;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: auto;
+}
+.landing_name{
+width: 100%;
+font-size: 14px;
+margin-bottom: 5px;
+
+}
+.landing_about{
+  font-size: 10px;
+  padding: 6px;
+}
+.sort1{
+position: sticky;
+
+}
+
+.sorthori{
+  border-top: 1px solid  rgb(221, 216, 216);
+
+}
+.sort
+{
+  display: flex;
+  margin:auto;
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: bold;
+align-items: center;
+justify-content: center;
+transform: rotateX(60);
+}
+.sort_text1{
+  font-size: 12px;
+  font-family: montserrat;
+}
+.sort_text{
+  color: #0384B8;
+  font-size: 12px;
+  font-family: montserrat;
+
+}
+.sort_text:hover{
+  cursor: pointer;
+}
+.transform{
+  transition: all 1s;
+}
+.rightfinal{
+  margin-top: 6px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+.rightfinal::-webkit-scrollbar {
+  display: none;
+}
+.rightfinal {
+-ms-overflow-style: none;
+scrollbar-width: none;  
+}
+.containersecond{
+width: 100%;
+display: flex;
+margin-bottom: 0.7rem;
+transition: all 1s;
+}
+.main{
+margin-top: 30px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: white;
+font-family: Montserrat;
+}
+
+
+.main_image{
+  width: 45px;
+  height: 45px;
+}
+.containersecond_details{
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+
+
+}
+.container2{
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 21px;
+  text-align: left;
+  transition: all 1s;
+}
+.containersecond_name{
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  
+}
+.containersecond_about{
+ font-size: 10px;
+  font-weight: lighter;
+line-height: 15px;
+}
+.container1{
+font-size: 20px;
+transition: all,1s;
+
+}
+  
+.text{
+  display: inline;
+  width: 100%;
+}
+  
+.read_or_hide{
+  color: #0384B8;
+  cursor: pointer;
+}
+.readmore_under{
+
+  margin-top: 0.7rem;
+  font-weight: lighter;
+  height:0;
+  border-top: 0.5px;
+}
+.undernavbar{
+  color: #0275B1;
+  display: flex;
+  font-size: 14px;
+  margin-top: 10px;
+ height: 25px;
+ font-family: Montserrat;
+ align-items: center;
+
+}
+.like_icon{
+  margin-right: 6px;
+  
+}
+.comment_icon{
+  margin-left: 2rem;
+  margin-right: 6px;
+  margin-top: 4px;
+}
+.share_icon{
+  transition: all 1s;
+margin-left: 75%;
+margin-right: 6px;
+
+margin-top: 4px;
+}
+.like_icon:hover{
+  cursor: pointer;
+}
+.comment_icon:hover{
+  cursor: pointer;
+}
+.share_icon:hover{
+  cursor: pointer;
+}
+.share_text:hover{
+  cursor: pointer;
+}
+.myprofile_image{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  bottom:17%;
+  height: 70px;
+  width: 70px;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+@media only screen and (max-width: 1150px) {
+  .share_icon{
+    margin-left: 50%;
+  }
+}

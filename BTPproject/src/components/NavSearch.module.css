@@ -1,0 +1,33 @@
+.search_div{
+    width: 367px;
+    height: 100%;
+    /* margin: 0px 0px 0px auto; */
+    margin: 0 auto;
+    margin-right: 9.4%;
+    background-color: #ffffff;
+    display: flex;
+    border-left: 1px solid #e9e6e6;
+    border-right: 1px solid #e9e6e6;
+    cursor: pointer;
+}
+
+
+.icon_logo{
+    color: 181818;
+    display: block;
+    width: 28px;
+    align-self: center;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #0275B1;
+}
+
+.search_div>p{
+    display: inline;
+    font-size: 16px;
+    color: #CECECE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    align-self: center;
+}

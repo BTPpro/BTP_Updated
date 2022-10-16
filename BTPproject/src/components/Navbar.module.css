@@ -1,0 +1,32 @@
+nav{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+    display: inline;
+}
+
+.Lnm_logo_div{
+    width: 130px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #e9e6e6;
+    margin-right: 13px;
+}
+
+.Navbar_lnmlogo{
+    width: 90px;
+    height:41px;
+}
+
+.links{
+    text-decoration: none;
+}

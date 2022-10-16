@@ -1,0 +1,38 @@
+.main_div{
+    width: 150px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #e9e6e6;
+    border-radius: 6px;
+    display: flex;
+    cursor: pointer;
+}
+
+.img_div{
+    width: 27%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.slider_pic{
+    width: 23px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+}
+
+.main_div>.p>p{
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #181818;
+}
