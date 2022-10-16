@@ -11,6 +11,18 @@
     right: 38.30%; */
 }
 
+.under_div{
+    width: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #e9e6e6;
+    border-right: 1px solid #e9e6e6;
+    border-left: 1px solid #e9e6e6;
+    border-bottom: 1px solid #e9e6e6;
+}
+
 .search_div{
     width: 365px;
     height: 80px;
@@ -109,5 +121,13 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+}
+
+.active{
+    display: flex;
+}
+
+.notactive{
+    display: none;
 }
 

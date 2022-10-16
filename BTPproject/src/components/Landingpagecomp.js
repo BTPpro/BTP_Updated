@@ -55,7 +55,7 @@ export default function Landingpagecomp() {
           <i className={Appcss.share_icon}>
             <FaShareAlt />
           </i>
-          <p className={Appcss.share_text}>share</p>
+          <p className={Appcss.share_text}>Share</p>
         </din>
       </div>
     </>

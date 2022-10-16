@@ -3,7 +3,7 @@ import resume1 from './assets/resume1.png'
 const resume = () => {
   return (
     <div style={{height:'100%',width:'100%'}}>
-    <div style={{fontSize:'9px',display:'flex',flexDirection:"row"}}>
+    <div style={{fontSize:'11px',display:'flex',flexDirection:"row"}}>
     <div style={{borderRadius:'.5em', marginTop:'100px',height:'19em',background:' #FCFDFD',font:'Montserrat',justifyContent:'center',alignItems:'center', marginLeft:'7em',padding:'1.5em',width:'90em'}}>
       <p style={{font:'Montserrat',fontSize:'2em'}}>UPLOAD RESUME</p>
       <div style={{background:'white',padding:'2em',display:'flex' , flexDirection:'row'}}>
@@ -13,7 +13,7 @@ const resume = () => {
         <p style={{font:'Montserrat',fontSize:'1em'}}>Limit 200mb per file *PDF </p>
         </span>
         <div style={{marginLeft:'50em',marginTop:'2em'}}>
-        <button style={{color:'white',fontSize:'1em',background:'#0077B5',height:'3em',border:'none',borderRadius:'0.5em',}}>BROWSE</button>
+        <button style={{color:'white',fontSize:'1em',background:'#0077B5',height:'3em',border:'none',borderRadius:'0.5em', padding:'0px 10px'}}>BROWSE</button>
         </div >
 
       </div>
@@ -22,7 +22,7 @@ const resume = () => {
     <p style={{fontFamily:'Montserrat',fontSize:'1.4em'}}>SAVED RESUMES</p>
     <div style={{display:'flex',flexDirection:'column',padding:'10px',gap:'1.5em'}}>
         <div style={{ background:'#E9F0F8',width:'23em',height: '5em',orderradius: '.4em'}}><span style={{padding:'2em',fontSize:'1.4em'}}>Resume Final Draft</span></div>
-        <div style={{ background:'#E9F0F8',width:'23em',height: '5em',orderradius: '.4em'}}><span style={{padding:'2em',fontSize:'1.4em'}}>Resume Seconnd Draft</span></div>
+        <div style={{ background:'#E9F0F8',width:'23em',height: '5em',orderradius: '.4em'}}><span style={{padding:'2em',fontSize:'1.4em'}}>Resume Second Draft</span></div>
         <div style={{ background:'#E9F0F8',width:'23em',height: '5em',orderradius: '.4em'}}><span style={{padding:'2em',fontSize:'1.4em'}}>Resume First Draft</span></div>
     </div>
 

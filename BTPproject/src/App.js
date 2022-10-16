@@ -10,7 +10,7 @@ import Jobs from "./components/Jobs"
 import Noticesmain from "./components/Noticesmain";
 
 import Navbar from "./components/Navbar"
-import Search from "./components/Search"
+// import Search from "./components/Search"
 import SideMenu from "./components/SideMenu"
 import { useState } from "react";
 
@@ -29,6 +29,11 @@ export default function App(){
         setIsMenuActive(true)
         
     }
+
+    const check1=()=>{
+        setIsMenuActive(false);
+    }
+
     const clickedFunc=(e)=>{
         console.log(e.target);
         if(menu && !menu.current.contains(e.target))
@@ -47,7 +52,6 @@ export default function App(){
                 <Route  path="/profile" element={
                     <>
                         <Navbar setIsMenuActive={check} />
-                        <Search searchCount={2000} isSearchActive={true} />
                     </>
                 } />
                 <Route  path="/resume" element={
@@ -92,7 +96,7 @@ export default function App(){
             {/* <Search searchCount={2000} isSearchActive={true} /> */}
             <br />
             </div>
-            <SideMenu isMenuActive={isMenuActive} />
+            <SideMenu check1={check1} isMenuActive={isMenuActive} />
         </div>
     );
 }

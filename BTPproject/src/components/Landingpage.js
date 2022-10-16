@@ -5,17 +5,17 @@ import Imageupprofile from "./Imageupprofile";
 import Profileimage from "./Profileimage";
 import Profilecontent from "./Profilecontent";
 import Resume1 from "./Resume1";
+import { BsChevronDown } from "react-icons/bs";
+import { BsChevronUp } from "react-icons/bs";
+
 export default function Landingpage() {
  
 
  
 //for sort arrow
-const[icon, Seticon]= useState("fa fa-angle-down")
- 
+const[isArrow, SetIsArrow]= useState(false)
   function setarrow(){
-   if(icon==="fa fa-angle-down")
-   Seticon("fa fa-angle-up")
-   else Seticon("fa fa-angle-down")
+    SetIsArrow(!isArrow);
   }
   return (
     <div className={ Appcss.landing_container}>
@@ -23,7 +23,7 @@ const[icon, Seticon]= useState("fa fa-angle-down")
         <div className={Appcss.sort1}>
       <div className={Appcss.sort}>
      
-        <p className={Appcss.sort_text1} >SORT BY: <span className={Appcss.sort_text} onClick={setarrow} >LATEST &nbsp;<i className={icon}></i></span></p>
+        <p className={Appcss.sort_text1} >SORT BY: <span className={Appcss.sort_text} onClick={setarrow} >LATEST &nbsp;{isArrow?<BsChevronDown/> : <BsChevronUp/>}</span></p>
       </div>
          <hr className={Appcss.sorthori} />
          </div>

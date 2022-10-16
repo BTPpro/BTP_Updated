@@ -4,6 +4,9 @@ import ResumeBtn from "./ResumeBtn";
 import { Link } from "react-router-dom";
 
 export default function SideMenu(props){
+    function handleclick(){
+        props.click1();
+    }
     return (
         <div className={props.isMenuActive ? (SideMenuCSS.main_div + " " + SideMenuCSS.active) : (SideMenuCSS.main_div + " " + SideMenuCSS.notactive) } >
             <div className={SideMenuCSS.help_div} >
@@ -14,13 +17,13 @@ export default function SideMenu(props){
                     <div className={SideMenuCSS.mid2_div} >
                         
                             <div className={SideMenuCSS.mid3_div} >
-                                <Link className={SideMenuCSS.links} to={"/profile"}>
+                                <Link onClick={handleclick} className={SideMenuCSS.links} to={"/profile"}>
                                     <SliderBtn picName="side1" text="PROFILE" />
                                 </Link>
                             </div>
                         
                         <div className={SideMenuCSS.mid3_div} >
-                            <Link className={SideMenuCSS.links} to={"/student_assessment"}>
+                            <Link onClick={handleclick} className={SideMenuCSS.links} to={"/student_assessment"}>
                                 <SliderBtn picName="side2" text="STUDENT ASSESSMENT" />
                             </Link>
                             
@@ -39,16 +42,19 @@ export default function SideMenu(props){
             </div>
             <div className={SideMenuCSS.last_div} >
                 <p className={SideMenuCSS.resume_heading}>Resume</p>
-                <Link className={SideMenuCSS.links} to={"/resume"}>
+                <Link onClick={handleclick} className={SideMenuCSS.links} to={"/resume"}>
                     <ResumeBtn upperText="Upload Resume" lowerText="Send to Server" />
                 </Link>
-                <Link className={SideMenuCSS.links} to={"/resume_analyzer"}>
+                <Link onClick={handleclick} className={SideMenuCSS.links} to={"/resume_analyzer"}>
                     <ResumeBtn upperText="Resume analysis" lowerText="Get checked your Resume" />
                 </Link>
                 
             </div>
+            
             <div className={SideMenuCSS.logout_div} >
+                <Link onClick={handleclick} className={SideMenuCSS.links} to={"/"}>
                 <p className={SideMenuCSS.logout}>LOG OUT</p>
+                </Link>
             </div>
         </div>
     );
