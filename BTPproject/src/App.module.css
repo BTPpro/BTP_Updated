@@ -113,15 +113,14 @@ border: solid 1px;
 display: flex;
 padding-left: 80px;
 padding-right: 80px;
-padding-top: 20px;
-padding-bottom: 60px;
+padding-top: 15px;
 }
 .landpage_right{
   background-color: #F7F9FB;
   width: 78%;
   display: flex;
   flex-direction: column;
- max-height: 83vh;
+ max-height: 81vh;
 padding-left: 1rem;
 padding-right: 1rem;
 margin-top: 0.5%;
@@ -251,7 +250,7 @@ transform: rotateX(60);
   transition: all 1s;
 }
 .rightfinal{
-  margin-top: 6px;
+  margin-top: 0px;
   overflow-x: hidden;
   overflow-y: auto;
   text-align:justify;
@@ -270,7 +269,7 @@ margin-bottom: 0.7rem;
 transition: all 1s;
 }
 .main{
-margin-top: 30px;
+margin-top: 20px;
 padding-left: 15px;
 padding-right: 15px;
 padding-top: 10px;
