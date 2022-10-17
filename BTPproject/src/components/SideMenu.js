@@ -43,7 +43,9 @@ export default function SideMenu(props){
             <div className={SideMenuCSS.last_div} >
                 <p className={SideMenuCSS.resume_heading}>Resume</p>
                 <Link onClick={handleclick} className={SideMenuCSS.links} to={"/resume"}>
+                    <div>
                     <ResumeBtn upperText="Upload Resume" lowerText="Send to Server" />
+                    </div>
                 </Link>
                 <Link onClick={handleclick} className={SideMenuCSS.links} to={"/resume_analyzer"}>
                     <ResumeBtn upperText="Resume analysis" lowerText="Get checked your Resume" />
