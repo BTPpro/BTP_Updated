@@ -104,10 +104,7 @@ export default function App(){
                     </>
                 } />
             </Routes> 
-            <br />
-            
             {/* <Search searchCount={2000} isSearchActive={true} /> */}
-            <br />
             </div>
             <SideMenu onClick={newCheck} check1={check1} isMenuActive={isMenuActive} />
         </div>
