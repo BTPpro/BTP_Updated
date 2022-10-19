@@ -6,7 +6,7 @@ export default function NavCandidate(props){
     return (
         <div className={NavCandidateCSS.candidate_div}>
             <img className={NavCandidateCSS.candidate_pic} src={"./"+candidatepic+".png"}  alt="candidate" />
-            <p>{candidateName}</p>
+            <p className={NavCandidateCSS.p}>{candidateName}</p>
         </div>
     );
 }

@@ -1,11 +1,11 @@
 .main_div{
-    display: flex;
     flex-direction: column;
     width: 367px;
     background-color: white;
     z-index: 20;
     margin: 0 auto;
     align-items: center;
+    display: flex;
     /* position: absolute;
     top: 0;
     right: 38.30%; */
