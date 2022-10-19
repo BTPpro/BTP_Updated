@@ -13,8 +13,8 @@ export default function NavLink(props){
         <div className={NavLinkCSS.link_div}>
             {/* <img className={NavLinkCSS.link_logo} src={"./"+logoName+".png"}  alt="navLink_logo" /> */}
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
-                <div className={NavLinkCSS.icon_logo}><HiOutlineRss size={25}/></div>
-                <p style={props.isFeedActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
+                <div style={props.isFeedActive?{color:"#0384B8"}:{}} className={NavLinkCSS.icon_logo}><HiOutlineRss size={25}/></div>
+                <p style={props.isFeedActive?{color:"#0384B8"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
             
             <div style={props.isFeedActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
@@ -24,8 +24,8 @@ export default function NavLink(props){
     return (
         <div className={NavLinkCSS.link_div}>
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
-                <div className={NavLinkCSS.icon_logo}><FiBriefcase size={25}/></div>
-                <p style={props.isJobsActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
+                <div style={props.isJobsActive?{color:"#0384B8"}:{}} className={NavLinkCSS.icon_logo}><FiBriefcase size={25}/></div>
+                <p style={props.isJobsActive?{color:"#0384B8"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
             <div style={props.isJobsActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
@@ -34,8 +34,8 @@ export default function NavLink(props){
     return (
         <div className={NavLinkCSS.link_div}>
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
-                <div className={NavLinkCSS.icon_logo}><FiBell size={25}/></div>
-                <p style={props.isNoticesActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
+                <div style={props.isNoticesActive?{color:"#0384B8"}:{}} className={NavLinkCSS.icon_logo}><FiBell size={25}/></div>
+                <p style={props.isNoticesActive?{color:"#0384B8"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
             <div style={props.isNoticesActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
