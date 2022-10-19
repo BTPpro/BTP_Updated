@@ -28,9 +28,8 @@
     align-self: center;
     width: 80%;
     height: 2.5px;
-    background-color: #181818;
+    background-color: blue;
     margin-top: auto;
-    visibility: hidden;
 }
 
 .icon_logo{

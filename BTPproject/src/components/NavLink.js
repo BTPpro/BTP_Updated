@@ -14,10 +14,10 @@ export default function NavLink(props){
             {/* <img className={NavLinkCSS.link_logo} src={"./"+logoName+".png"}  alt="navLink_logo" /> */}
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
                 <div className={NavLinkCSS.icon_logo}><HiOutlineRss size={25}/></div>
-                <p className={NavLinkCSS.LinkName}>{linkName}</p>
+                <p style={props.isFeedActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
             
-            <div className={NavLinkCSS.border_line}></div>
+            <div style={props.isFeedActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
     )
     else if(logoName === "jobs")
@@ -25,9 +25,9 @@ export default function NavLink(props){
         <div className={NavLinkCSS.link_div}>
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
                 <div className={NavLinkCSS.icon_logo}><FiBriefcase size={25}/></div>
-                <p className={NavLinkCSS.LinkName}>{linkName}</p>
+                <p style={props.isJobsActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
-            <div className={NavLinkCSS.border_line}></div>
+            <div style={props.isJobsActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
     )
     else if(logoName === "notices")
@@ -35,9 +35,9 @@ export default function NavLink(props){
         <div className={NavLinkCSS.link_div}>
             <Link className={NavLinkCSS.link} to={"/"+logoName}>
                 <div className={NavLinkCSS.icon_logo}><FiBell size={25}/></div>
-                <p className={NavLinkCSS.LinkName}>{linkName}</p>
+                <p style={props.isNoticesActive?{color:"blue"}:{}} className={NavLinkCSS.LinkName}>{linkName}</p>
             </Link>
-            <div className={NavLinkCSS.border_line}></div>
+            <div style={props.isNoticesActive?{opacity:"100"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
     )
     else if(logoName === "menu")
@@ -45,7 +45,7 @@ export default function NavLink(props){
         <div className={NavLinkCSS.link_div +" "+ NavLinkCSS.link_MENU_Div}>
             <div className={NavLinkCSS.icon_logo}><FiMoreHorizontal size={25}/></div>
             <p>{linkName}</p>
-            <div className={NavLinkCSS.border_line}></div>
+            <div style={props.isFeedActive?{opacity:"0"}:{opacity:"0"}} className={NavLinkCSS.border_line}></div>
         </div>
     )
     ;

@@ -20,6 +20,7 @@ import {
   } from "react-router-dom";
 
 export default function App(){
+
     const [isMenuActive,setIsMenuActive] = useState(false);
 
     const [isSearchActive,setIsSearchActive] = useState(false);
