@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    
+  }
+  .leftside{
+display: flex;
+  }
+  .rightside{
+    display: flex;
+  }

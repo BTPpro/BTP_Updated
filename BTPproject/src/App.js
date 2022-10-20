@@ -6,6 +6,8 @@ import Resume from './components/resume';
 import ResumeAnalyser from './components/resumeanalyser'
 import Studentanalysis from './components/studentanalys';
 
+import EditProfile from "./components/EditProfile";
+
 import Jobs from "./components/Jobs"
 import Noticesmain from "./components/Noticesmain";
 
@@ -65,6 +67,7 @@ export default function App(){
                 <Route  path="/profile" element={
                     <>
                         <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1}  setIsMenuActive={check} />
+                        <div  onClick={newCheck}><EditProfile /></div>
                     </>
                 } />
                 <Route  path="/resume" element={

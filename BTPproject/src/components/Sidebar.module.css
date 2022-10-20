@@ -1,0 +1,35 @@
+.sidebar_box{
+
+width: 18vw;
+
+border-radius: 4px;
+ 
+margin-top: 70px;
+margin-right: 2vw;
+}
+
+.sidebar_item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 2rem;
+    padding: 0.625rem 1.25rem 0.625rem;
+    border: 1px solid #F4F4F4;
+    background: #FFFFFF;
+}
+
+.sidebar_text{
+    margin-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.hoverbox{
+    display: flex;
+    align-items: center;
+}
