@@ -29,7 +29,7 @@ export default function DetailSecondary() {
       <hr className={DetailSecondaryCSS.hr}></hr>
       </div>
       <button className={DetailSecondaryCSS.edit_btn} type="submit">
-        <img src="./images/save.png" className={DetailSecondaryCSS.editimg} />
+        <img src="./images/save.png" className={DetailSecondaryCSS.editimg}  alt=""/>
         
         <div  className={DetailSecondaryCSS.savedit}>SAVE EDIT</div>
       </button>

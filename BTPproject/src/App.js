@@ -11,6 +11,8 @@ import EditProfile from "./components/EditProfile";
 import Jobs from "./components/Jobs"
 import Noticesmain from "./components/Noticesmain";
 
+import TpoPage from "./tpo_pages/tpo_page";
+
 import Navbar from "./components/Navbar"
 // import Search from "./components/Search"
 import SideMenu from "./components/SideMenu"
@@ -104,6 +106,12 @@ export default function App(){
                     <>
                         <Navbar isSearchActive={isSearchActive} setSearchTrue={newCheck1} setIsMenuActive={check} />
                         <div  onClick={newCheck}><Noticesmain /></div>
+                    </>
+                } />
+
+                <Route  path="tpo" element={
+                    <>
+                        <TpoPage />
                     </>
                 } />
             </Routes> 
