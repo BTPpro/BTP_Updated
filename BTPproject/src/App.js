@@ -23,6 +23,7 @@ import {
     Route,
   } from "react-router-dom";
 
+
 export default function App(){
 
     const [isMenuActive,setIsMenuActive] = useState(false);
@@ -109,11 +110,11 @@ export default function App(){
                     </>
                 } />
 
-                <Route  path="tpo" element={
-                    <>
-                        <TpoPage />
-                    </>
-                } />
+                <Route  path="tpo" element={<TpoPage />} >
+                    <Route  path="student_verification" element={<Landingpage />} />
+                    <Route  path="recruiter_verification" element={<EditProfile />} />
+                    <Route  path="recruiter_credentials" element={<Noticesmain />} />
+                </Route>
             </Routes> 
             {/* <Search searchCount={2000} isSearchActive={true} /> */}
             </div>
