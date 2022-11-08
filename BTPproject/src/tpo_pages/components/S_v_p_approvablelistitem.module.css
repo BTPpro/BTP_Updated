@@ -1,0 +1,40 @@
+.list_heading{
+    display: flex;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 50px;
+}
+.approvebutton{
+    background-color: #22E4AC;
+    height: 60%;
+    width: 100px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.list_1{
+    width: 10%;
+    text-align: left;
+    margin-left:5%;
+}
+.list_2{
+    width: 20%;
+    text-align: left;
+}
+.list_3{
+    width: 25%;
+    text-align: left;
+}
+.list_4{
+    width: 25%;
+    text-align: left;
+}
+.list_5{
+    width: 20%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
