@@ -12,6 +12,8 @@ import Jobs from "./components/Jobs"
 import Noticesmain from "./components/Noticesmain";
 
 import TpoPage from "./tpo_pages/tpo_page";
+import R_V from "./tpo_pages/components/R_v";
+import S_V_P from "./tpo_pages/components/S_v_p_approvable";
 
 import Navbar from "./components/Navbar"
 // import Search from "./components/Search"
@@ -111,8 +113,8 @@ export default function App(){
                 } />
 
                 <Route  path="tpo" element={<TpoPage />} >
-                    <Route  path="student_verification" element={<Landingpage />} />
-                    <Route  path="recruiter_verification" element={<EditProfile />} />
+                    <Route  path="student_verification" element={<S_V_P />} />
+                    <Route  path="recruiter_verification" element={<R_V />} />
                     <Route  path="recruiter_credentials" element={<Noticesmain />} />
                 </Route>
             </Routes> 
