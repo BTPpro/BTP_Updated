@@ -3,6 +3,8 @@ import S_v_p_approvablecss from "./S_v_p_approvavble.module.css"
 import A_Data from "./S_v_p_approvabledata"
 import R_Data from "./S_v_p_rejectabledata"
 import S_v_p_approvablelistitem from "./S_v_p_approvablelistitem"
+import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar";
 export default function S_v_p_approvable() {
     return (
 <>

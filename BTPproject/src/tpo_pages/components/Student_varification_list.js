@@ -2,6 +2,7 @@ import React from "react";
 import Student_varification_list_css from "./Student_varification.module.css"
 import S_v_listitem from "./S_v_listitem"
 import Data from "./S_vdata";
+import Navbar from "./Navbar";
 export default function Student_varification_list () {
     return (
 <>

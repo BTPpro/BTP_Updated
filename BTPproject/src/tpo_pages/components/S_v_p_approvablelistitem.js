@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import S_v_p_approvablelistitemcss from "./S_v_p_approvablelistitem.module.css"
 
 export default function S_v_p_approvablelistitem (props) {

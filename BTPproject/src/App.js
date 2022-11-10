@@ -13,9 +13,10 @@ import Noticesmain from "./components/Noticesmain";
 
 import TpoPage from "./tpo_pages/tpo_page";
 import R_V from "./tpo_pages/components/R_v";
+import Navbar from "./tpo_pages/components/Navbar";
+import Navbar2 from "./tpo_pages/components/Navbar2"
 import S_V_P from "./tpo_pages/components/S_v_p_approvable";
-
-import Navbar from "./components/Navbar"
+import Rejectable  from './tpo_pages/components/S_v_p_rejectable';
 // import Search from "./components/Search"
 import SideMenu from "./components/SideMenu"
 import { useState } from "react";
@@ -113,8 +114,15 @@ export default function App(){
                 } />
 
                 <Route  path="tpo" element={<TpoPage />} >
-                    <Route  path="student_verification" element={<S_V_P />} />
-                    <Route  path="recruiter_verification" element={<R_V />} />
+                    <Route  path="student_verification" element={<Navbar />} >
+                    <Route path="all_students" element={<S_V_P />} />
+                    <Route path="acceptable" element={<h1>Approvable</h1>} />
+                    <Route path="rejectable" element={<h1>rejectable</h1>} />
+                    </Route>
+                    <Route  path="recruiter_verification" element={<Navbar2 />}>  
+                    <Route path="unverified" element={<h1>unverified</h1>} />
+                    <Route path="verified" element={<h1>verified</h1>} />
+                    </Route>
                     <Route  path="recruiter_credentials" element={<Noticesmain />} />
                 </Route>
             </Routes> 
