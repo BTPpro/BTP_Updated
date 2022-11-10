@@ -18,7 +18,7 @@
     transform: translateX(0%);
 }
 .notactive{
-    /* display: none; */
+    display: none;
     transform: translateX(100%);
 }
 

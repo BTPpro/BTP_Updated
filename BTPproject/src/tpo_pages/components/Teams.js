@@ -2,7 +2,7 @@ import React from "react";
 import {Route} from "react-router-dom";
 import { Routes } from "react-router-dom";
 import TeamCss from "./teams.module.css";
-import Navbar from "../components/Navbar";
+import Navbar from "./Navbar1";
 
 function Teams()
 {
