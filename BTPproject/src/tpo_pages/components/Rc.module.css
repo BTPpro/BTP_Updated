@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 body{
     background-color: rgb(240, 240, 240);
     
     
 }
+
 .main{
     font-size: 1.7vw;
     
@@ -15,7 +17,8 @@ body{
 .head{
     
     font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
     padding: 0;
     margin: 0;
 }
@@ -32,13 +35,13 @@ body{
 }
 .div1{
     background-color:rgb(240, 240, 240) ;
-    padding:1.7em 1.2em ;
+    padding:1.7em 1.7em ;
     
 }
 
 .input{
-    width:65vw;
-    margin-left: 3%;
+    width:50vw;
+    margin-left: 2%;
     height: 1em;
     
 }
@@ -47,6 +50,7 @@ body{
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .6em;
+    padding-bottom: 2em;
 }
 .button{
     color:white;
