@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import { useState } from "react";
 import Navcss from "./navbar.module.css";
@@ -29,30 +29,30 @@ export default function Navbar()
 
     return (
         <div  className={Navcss.navMainDiv}>
-           <nav >
+           <div >
             <ul className={Navcss.NavDiv}>
                 <li >
-                   <NavLink 
+                   <Link 
                     onClick={handleClick1}
                     className={Navcss.navItem} to="all_students"><div className={is1Active
                         ? Navcss.sidebar_item + " " + Navcss.active
-                        : Navcss.sidebar_item}>All Students</div></NavLink>
+                        : Navcss.sidebar_item}>All Students</div></Link>
                 </li>
                 <li  >
-                <NavLink 
+                <Link 
 
                  onClick={handleClick2}
                   className={Navcss.navItem}to="acceptable"><div className={is2Active
-                    ? Navcss.sidebar_item + " " + Navcss.active: Navcss.sidebar_item}>Approvable</div></NavLink>
+                    ? Navcss.sidebar_item + " " + Navcss.active: Navcss.sidebar_item}>Approvable</div></Link>
                 </li>
                 <li  >
-                <NavLink
+                <Link
                  onClick={handleClick3}
                   className={Navcss.navItem} to="rejectable"><div className={is3Active
-                    ? Navcss.sidebar_item + " " + Navcss.active: Navcss.sidebar_item}>Rejectable</div></NavLink>
+                    ? Navcss.sidebar_item + " " + Navcss.active: Navcss.sidebar_item}>Rejectable</div></Link>
                 </li>
             </ul>
-           </nav>
+           </div>
            <div className={Navcss.outletDiv}>
            <Outlet />
            </div>

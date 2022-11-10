@@ -11,7 +11,8 @@ import Noticesmain from "./components/Noticesmain";
 import TpoPage from "./tpo_pages/tpo_page";
  import A_V from "./tpo_pages/components/A_v";
 import R_V from "./tpo_pages/components/R_v";
-import Navbar from "./tpo_pages/components/Navbar";
+import Navbar from "./components/Navbar";
+import Navbar1 from './tpo_pages/components/Navbar1';
 import Navbar2 from "./tpo_pages/components/Navbar2"
 import S_v_p_approvable from "./tpo_pages/components/S_v_p_approvable";
 import S_v_p_rejectable from "./tpo_pages/components/S_v_p_rejectable";
@@ -113,7 +114,7 @@ export default function App(){
                 } />
 
                 <Route  path="tpo" element={<TpoPage />} >
-                    <Route  path="student_verification" element={<Navbar />} >
+                    <Route  path="student_verification" element={<Navbar1 />} >
                     <Route path="all_students" element={<Student_varification_list/>} />
                     <Route path="acceptable" element={<S_v_p_approvable />} />
                     <Route path="rejectable" element={<S_v_p_rejectable />} />

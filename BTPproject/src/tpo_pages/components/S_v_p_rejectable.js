@@ -4,7 +4,7 @@ import Data from "./S_vdata"
 
 import S_v_p_approvablelistitem from "./S_v_p_approvablelistitem"
 import { Outlet } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar1";
 export default function S_v_p_rejectable() {
     return (
 <>
