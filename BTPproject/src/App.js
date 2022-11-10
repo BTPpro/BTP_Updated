@@ -18,6 +18,7 @@ import S_v_p_approvable from "./tpo_pages/components/S_v_p_approvable";
 import S_v_p_rejectable from "./tpo_pages/components/S_v_p_rejectable";
 import Student_varification_list from './tpo_pages/components/Student_varification_list';
 import SideMenu from "./components/SideMenu"
+import  Noticesmain from "./components/Rc"
 import { useState } from "react";
 
 import {
