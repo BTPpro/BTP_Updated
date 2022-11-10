@@ -19,7 +19,7 @@ export default function Student_varification_list () {
 {
         Data.map((value)=>(
         <div key= {value.id} className={Student_varification_list_css.child}>
-          <S_v_listitem details={value} />
+         {value.In  && <S_v_listitem details={value} />}
         </div>  
           )
         )
