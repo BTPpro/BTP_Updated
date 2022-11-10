@@ -17,7 +17,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 3,
     Rollno  : "21ucc041" ,
@@ -26,7 +27,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 4,
     Rollno  : "21ucc041" ,
@@ -35,7 +37,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 5,
     Rollno  : "21ucc041" ,
