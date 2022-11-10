@@ -15,8 +15,10 @@ export default function Student_varification_list () {
     <p  className={Student_varification_list_css.list_5}>Gender</p>
     <p  className={Student_varification_list_css.list_6}>Branch</p>
     </div>
+<div className={Student_varification_list_css.dataScroll}>
 
-<div>
+
+<div >
 {
         Data.map((value)=>(
         <div key= {value.id} className={Student_varification_list_css.child}>
@@ -25,6 +27,7 @@ export default function Student_varification_list () {
           )
         )
       }  
+</div>
 </div>
 
 </>

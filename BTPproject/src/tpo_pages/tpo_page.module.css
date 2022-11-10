@@ -16,6 +16,11 @@
     height: 80vh;
     margin: 0 30px;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
  
+}
+
+
+.pages::-webkit-scrollbar { 
+    display: none; 
 }
