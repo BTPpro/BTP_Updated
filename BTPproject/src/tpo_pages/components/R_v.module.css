@@ -6,7 +6,7 @@
 }
 .child:nth-child(odd){
     background-color: rgb(240, 240, 240);
-    border-bottom: 0.2px rgb(211, 210, 210) solid;
+    
     
 }
 

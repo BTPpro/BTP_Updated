@@ -73,7 +73,7 @@ const data=[
   { id: 8,
     Rollno  : "21ucc041" ,
     Name : "Gaurav Agrawal",
-    Activeb : "sem 1: clp sem 2: vee sem 1: clp sem 2: vee",
+    Activeb : "sem 1: clp ",
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",

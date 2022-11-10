@@ -3,12 +3,7 @@ import Navbar from "./Navbar1";
 import S_v_p_approvablelistitemcss from "./S_v_p_approvablelistitem.module.css"
 
 export default function S_v_p_approvablelistitem (props) {
-    // function toggle_approve (){
-    // if(props.details.approve){
-    //     props.details.approve =false;
-    // }
-    // else  props.details.approve =true;
-    // }
+
     return (
        
         <>

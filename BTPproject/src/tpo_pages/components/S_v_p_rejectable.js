@@ -10,7 +10,7 @@ export default function S_v_p_rejectable() {
 <>
 <div className ={S_v_p_approvablecss.list_heading}>
     <p className ={S_v_p_approvablecss.list_1}>#</p>
-    <p className ={S_v_p_approvablecss.list_2}>Roll no</p>
+    <p className ={S_v_p_approvablecss.list_2}>Roll No</p>
     <p className ={S_v_p_approvablecss.list_3}>Name</p>
     <p className ={S_v_p_approvablecss.list_4}>Active Backlog</p>
     <p className ={S_v_p_approvablecss.list_5}>Approve</p>

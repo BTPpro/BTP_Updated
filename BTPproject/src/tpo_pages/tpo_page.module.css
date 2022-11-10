@@ -12,15 +12,9 @@
 }
 .pages {
     width: 100%;
-    padding-top: 30px;
     height: 80vh;
     margin: 0 30px;
-    overflow-x: hidden;
-    overflow-y: scroll;
- 
+    
 }
 
 
-.pages::-webkit-scrollbar { 
-    display: none; 
-}
