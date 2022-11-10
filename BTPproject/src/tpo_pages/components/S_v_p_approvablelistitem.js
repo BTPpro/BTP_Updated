@@ -10,7 +10,7 @@ export default function S_v_p_approvablelistitem (props) {
     <p className={S_v_p_approvablelistitemcss.list_2}>{props.details.Rollno}</p>
     <p className={S_v_p_approvablelistitemcss.list_3}>{props.details.Name}</p>
     <p className={S_v_p_approvablelistitemcss.list_4}>{props.details.Activeb}</p>
-    <p className={S_v_p_approvablelistitemcss.list_5}><button className={S_v_p_approvablelistitemcss.approvebutton}>Approve</button></p>
+    <p className={S_v_p_approvablelistitemcss.list_5}><button className={S_v_p_approvablelistitemcss.approvebutton} >Approve</button></p>
 
 </div>
         </>

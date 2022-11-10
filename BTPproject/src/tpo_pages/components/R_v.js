@@ -17,7 +17,9 @@ export default function R_v() {
 {
         V_Data.map((value)=>(
         <div key= {value.id} className={ R_vcss.child}>
+          
           <R_v_listitem details={value} />
+          
         </div>  
           )
         )

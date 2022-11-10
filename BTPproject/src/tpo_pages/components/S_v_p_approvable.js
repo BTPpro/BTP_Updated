@@ -1,7 +1,7 @@
 import React from "react";
 import S_v_p_approvablecss from "./S_v_p_approvavble.module.css"
-import A_Data from "./S_v_p_approvabledata"
-import R_Data from "./S_v_p_rejectabledata"
+import Data from "./S_vdata"
+
 import S_v_p_approvablelistitem from "./S_v_p_approvablelistitem"
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -18,9 +18,9 @@ export default function S_v_p_approvable() {
 <div >
 
 {
-        A_Data.map((value)=>(
+        Data.map((value)=>(
         <div key= {value.id} className={S_v_p_approvablecss.child}>
-          <S_v_p_approvablelistitem details={value} />
+        {  value.approve && <S_v_p_approvablelistitem details={value} /> }
         </div>  
           )
         )
