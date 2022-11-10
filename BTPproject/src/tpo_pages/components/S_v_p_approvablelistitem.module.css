@@ -1,17 +1,17 @@
 .list_heading{
     display: flex;
     font-weight: 200;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 50px;
 }
 .approvebutton{
     background-color: #22E4AC;
     height: 60%;
-    width: 100px;
+    width: 35%;
     color: white;
     border-radius: 3px;
     border: none;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -27,10 +27,12 @@
 .list_3{
     width: 25%;
     text-align: left;
+    
 }
 .list_4{
     width: 25%;
     text-align: left;
+    
 }
 .list_5{
     width: 20%;
