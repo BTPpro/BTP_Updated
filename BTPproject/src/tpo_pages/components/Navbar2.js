@@ -21,7 +21,7 @@ export default function Navbar()
 
     return (
         <div  className={Navcss.navMainDiv}>
-           <nav >
+           <div >
             <ul className={Navcss.NavDiv}>
                 <li >
                    <NavLink 
@@ -38,7 +38,7 @@ export default function Navbar()
                     ? Navcss.sidebar_item + " " + Navcss.active: Navcss.sidebar_item}>Verified recruiter</div></NavLink>
                 </li>
             </ul>
-           </nav>
+           </div>
            <div className={Navcss.outletDiv}>
            <Outlet />
            </div>
