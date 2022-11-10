@@ -1,17 +1,20 @@
 .list_heading{
     display: flex;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 50px;
 }
 .child:nth-child(odd){
     background-color: rgb(240, 240, 240);
     border-bottom: 0.2px rgb(211, 210, 210) solid;
+    
 }
+
 .list_1{
     width: 20%;
     text-align: left;
     margin-left: 5%;
+ 
 }
 .list_2{
     width: 30%;
