@@ -7,7 +7,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 2,
     Rollno  : "21ucc041" ,
@@ -43,7 +44,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 6,
     Rollno  : "21ucc041" ,
@@ -52,7 +54,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 7,
     Rollno  : "21ucc041" ,
@@ -61,7 +64,8 @@ const data=[
     approve: true,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   }, 
   { id: 8,
     Rollno  : "21ucc041" ,
@@ -70,7 +74,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 9,
     Rollno  : "21ucc041" ,
@@ -79,7 +84,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 10,
     Rollno  : "21ucc041" ,
@@ -88,7 +94,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 11,
     Rollno  : "21ucc041" ,
@@ -97,7 +104,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 12,
     Rollno  : "21ucc041" ,
@@ -106,7 +114,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 13,
     Rollno  : "21ucc041" ,
@@ -115,7 +124,8 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   },
   { id: 14,
     Rollno  : "21ucc041" ,
@@ -125,6 +135,7 @@ const data=[
     approve: false,
     Phoneno:" 11324234" ,
     Gender: "Male",
-    branch : "cce"
+    branch : "cce",
+    In:false
   }]
   export default data;
