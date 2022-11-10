@@ -2,8 +2,8 @@
 
 .NavDiv {
     display: flex;
+    background-color: rgb(240, 240, 240);
     flex-direction: row;
-    background-color: #EAEAEA;
     align-items: center;
     height: 50px;
   

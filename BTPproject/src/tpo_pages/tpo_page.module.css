@@ -10,10 +10,12 @@
     height: 100vh;
     background-color: aqua;
 }
-.pages{
+.pages {
     width: 100%;
     padding-top: 30px;
     height: 80vh;
-    background-color: #f4f4f4;
     margin: 0 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+ 
 }
