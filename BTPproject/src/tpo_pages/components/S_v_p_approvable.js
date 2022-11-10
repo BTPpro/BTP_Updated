@@ -18,7 +18,7 @@ export default function S_v_p_approvable() {
 <div >
 
 {
-        R_Data.map((value)=>(
+        A_Data.map((value)=>(
         <div key= {value.id} className={S_v_p_approvablecss.child}>
           <S_v_p_approvablelistitem details={value} />
         </div>  
