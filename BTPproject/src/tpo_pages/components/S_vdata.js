@@ -8,7 +8,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 2,
     Rollno  : "21ucc041" ,
@@ -18,7 +18,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 3,
     Rollno  : "21ucc041" ,
@@ -28,7 +28,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 4,
     Rollno  : "21ucc041" ,
@@ -38,7 +38,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 5,
     Rollno  : "21ucc041" ,
@@ -48,7 +48,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 6,
     Rollno  : "21ucc041" ,
@@ -58,7 +58,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 7,
     Rollno  : "21ucc041" ,
@@ -68,7 +68,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   }, 
   { id: 8,
     Rollno  : "21ucc041" ,
@@ -78,7 +78,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 9,
     Rollno  : "21ucc041" ,
@@ -88,7 +88,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 10,
     Rollno  : "21ucc041" ,
@@ -98,7 +98,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 11,
     Rollno  : "21ucc041" ,
@@ -108,7 +108,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 12,
     Rollno  : "21ucc041" ,
@@ -118,7 +118,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 13,
     Rollno  : "21ucc041" ,
@@ -128,7 +128,7 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   },
   { id: 14,
     Rollno  : "21ucc041" ,
@@ -139,6 +139,6 @@ const data=[
     Phoneno:" 11324234" ,
     Gender: "Male",
     branch : "cce",
-    In:false
+    In:true
   }]
   export default data;
