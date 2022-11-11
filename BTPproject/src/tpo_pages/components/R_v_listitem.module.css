@@ -1,6 +1,6 @@
 .list_heading{
     display: flex;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     line-height: 50px;
     font-size: 200;
@@ -27,7 +27,7 @@
 .button_view{
     width: 24%;
     color: white;
-    background-color:#51BEB5;
+    background-color:#37485c;
     height: 68%;
     display: flex;
     align-items: center;

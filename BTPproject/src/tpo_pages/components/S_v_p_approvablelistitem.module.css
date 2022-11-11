@@ -1,11 +1,11 @@
 .list_heading{
     display: flex;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     line-height: 50px;
 }
 .approvebutton{
-    background-color: #10ab6d;
+    background-color: #37485c;
     width: 35%;
     color: white;
     border-radius: 3px;

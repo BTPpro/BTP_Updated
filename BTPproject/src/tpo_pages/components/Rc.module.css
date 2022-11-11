@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 body{
     background-color: rgb(240, 240, 240);
     
@@ -8,7 +8,6 @@ body{
 .main{
     font-size: 1.7vw;
     
-    margin-left: 5%;
     margin-top: 5%;
     
     background-color: white;
@@ -16,20 +15,21 @@ body{
 }
 .head{
     
-    font-size: 2em;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: 600;
     padding: 0;
     margin: 0;
 }
 .red{
     color: red;
-    font-size: .3em;
-   
+    font-size: .5em;
+    font-family: 'Montserrat';
+    font-weight: 500;
     padding: 0;
  
     margin-top: .7%;
-    margin-bottom: 0;
+    margin-bottom: 10px;
     padding-bottom: 0;
 
 }
@@ -48,16 +48,19 @@ body{
 
 .head1{
     font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat';
+    font-weight: 600;
     font-size: .6em;
     padding-bottom: 2em;
 }
 .button{
     color:white;
-    background-color: deepskyblue;
+    background-color: #37485c;
     border:none;
     padding: .5em;
     border-radius: 2px;
+    font-family: 'Montserrat';
+    font-weight: 500;
     cursor: pointer;
 
 }

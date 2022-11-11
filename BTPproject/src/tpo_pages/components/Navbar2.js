@@ -6,7 +6,7 @@ import Navcss from "./navbar.module.css";
 
 export default function Navbar()
 {
-    const [is1Active, set1Active] = useState(false);
+    const [is1Active, set1Active] = useState(true);
     const [is2Active, set2Active] = useState(false);
 
     const handleClick1 = () => {

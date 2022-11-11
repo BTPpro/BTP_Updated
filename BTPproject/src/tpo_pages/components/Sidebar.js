@@ -37,7 +37,7 @@ export default function Sidebar() {
         <Link
           onClick={handleClick1}
           className={SidebarCSS.links}
-          to="student_verification"
+          to="student_verification/all_students"
         >
           <div
             className={
@@ -57,7 +57,7 @@ export default function Sidebar() {
         <Link
           onClick={handleClick2}
           className={SidebarCSS.links}
-          to="recruiter_verification"
+          to="recruiter_verification/unverified"
         >
           <div
             className={

@@ -55,7 +55,8 @@ color: #3C4048;
         color: black;
     }
     .sidebar_item:hover{
-        background: grey;
+        background: rgb(162, 162, 162);
+        color: #F4F4F4;
     }
 
 
@@ -65,7 +66,6 @@ color: #3C4048;
     
     .active{
         background: grey;
-        border-left: 3px solid #F4F4F4;
         color: #F4F4F4;
     }
 

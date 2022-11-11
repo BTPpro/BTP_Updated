@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <>
     <div className={Appcss.admin}>
-      <Link  to={"/tpo/student_verification"}><button className={Appcss.admin_button}>Admin page</button></Link>
+      <Link  to={"/tpo/student_verification/all_students"}><button className={Appcss.admin_button}>Admin page</button></Link>
     </div>
     <div className={Appcss.login}>
       <img
