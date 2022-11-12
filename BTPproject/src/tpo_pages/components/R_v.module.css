@@ -1,0 +1,31 @@
+.list_heading{
+    display: flex;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 50px;
+}
+.child:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+    
+    
+}
+
+.list_1{
+    width: 20%;
+    text-align: left;
+    margin-left: 5%;
+ 
+}
+.list_2{
+    width: 30%;
+    text-align: left;
+}
+.list_3{
+    width: 30%;
+    text-align: left;
+}
+.list_4{
+    width: 20%;
+    text-align: left;
+
+}

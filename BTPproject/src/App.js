@@ -5,21 +5,28 @@ import Login from "./components/Login";
 import Resume from './components/resume';
 import ResumeAnalyser from './components/resumeanalyser'
 import Studentanalysis from './components/studentanalys';
-
 import EditProfile from "./components/EditProfile";
-
 import Jobs from "./components/Jobs"
 import Noticesmain from "./components/Noticesmain";
-
-import Navbar from "./components/Navbar"
-// import Search from "./components/Search"
+import TpoPage from "./tpo_pages/tpo_page";
+ import A_V from "./tpo_pages/components/A_v";
+import R_V from "./tpo_pages/components/R_v";
+import Navbar from "./components/Navbar";
+import Navbar1 from './tpo_pages/components/Navbar1';
+import Navbar2 from "./tpo_pages/components/Navbar2"
+import S_v_p_approvable from "./tpo_pages/components/S_v_p_approvable";
+import S_v_p_rejectable from "./tpo_pages/components/S_v_p_rejectable";
+import Student_varification_list from './tpo_pages/components/Student_varification_list';
 import SideMenu from "./components/SideMenu"
+import  Rc from "./tpo_pages/components/Rc"
 import { useState } from "react";
 
 import {
     Routes,
     Route,
   } from "react-router-dom";
+import R_v from './tpo_pages/components/R_v';
+
 
 export default function App(){
 
@@ -106,6 +113,19 @@ export default function App(){
                         <div  onClick={newCheck}><Noticesmain /></div>
                     </>
                 } />
+
+                <Route  path="tpo" element={<TpoPage />} >
+                    <Route  path="student_verification" element={<Navbar1 />} >
+                    <Route path="all_students" element={<Student_varification_list/>} />
+                    <Route path="acceptable" element={<S_v_p_approvable />} />
+                    <Route path="rejectable" element={<S_v_p_rejectable />} />
+                    </Route>
+                    <Route  path="recruiter_verification" element={<Navbar2 />}>  
+                    <Route path="unverified" element={<A_V/>} />
+                    <Route path="verified" element={<R_v/>} />
+                    </Route>
+                    <Route  path="recruiter_credentials" element={<Rc />} />
+                </Route>
             </Routes> 
             {/* <Search searchCount={2000} isSearchActive={true} /> */}
             </div>

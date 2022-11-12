@@ -1,0 +1,13 @@
+.outerDiv {
+  
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainDiv {
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+
