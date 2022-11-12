@@ -1,7 +1,6 @@
 import React from "react";
 import R_vcss from "./R_v.module.css"
-import U_Data from "./R_v_unvarified.data"
-import V_Data from "./R_v_varified_data"
+import Data from "./R_v_data"
 import R_v_listitem from "./R_v_listitem"
 export default function R_v() {
     return (
@@ -15,23 +14,15 @@ export default function R_v() {
 <div >
 
 {
-        V_Data.map((value)=>(
+        Data.map((value)=>(
         <div key= {value.id} className={ R_vcss.child}>
           
-          <R_v_listitem details={value} />
+          {value.varified &&  <R_v_listitem details={value} />}
           
         </div>  
           )
         )
       }  
-{/* {
-        U_Data.map((value)=>(
-        <div key= {value.id} className={ R_vcss.child}>
-          <R_v_listitem details={value} />
-        </div>  
-          )
-        )
-      }   */}
 </div>
 
 </>
