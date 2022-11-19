@@ -4,9 +4,16 @@ import  Appcss from  '../App.module.css';
 export default function Login() {
   return (
     <>
+    <div  className={Appcss.button_collection} >
     <div className={Appcss.admin}>
-      <Link  to={"/tpo/student_verification/all_students"}><button className={Appcss.admin_button}>Admin page</button></Link>
+      <Link  to={"/tpo/student_verification/all_students"}><button className={Appcss.admin_button}>Admin Login</button></Link>
     </div>
+    <div className={Appcss.admin}>
+      <Link  to={"/tpo/student_verification/all_students"}><button className={Appcss.admin_button}>Recruiter Login</button></Link>
+    </div>
+    <div className={Appcss.admin}>
+      <Link  to={"/tpo/student_verification/all_students"}><button className={Appcss.admin_button}>User Login</button></Link>
+    </div></div>
     <div className={Appcss.login}>
       <img
         className={Appcss.login_logo}

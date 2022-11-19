@@ -9,6 +9,11 @@ body{
   #F7F9FB;
 
 }
+.button_collection{
+  display: flex;
+  flex-direction: row;
+   gap: 1%;
+}
 .admin{
 margin-top: 15px;
 margin-bottom: 50px;
